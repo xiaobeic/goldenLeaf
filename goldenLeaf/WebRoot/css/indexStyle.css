@@ -1,0 +1,521 @@
+a:hover {
+	text-decoration: none;
+}
+
+/*导航条*/
+.navigationBar{
+	width: 1300px;
+	margin-top: 40px;
+}
+.navigationBar img{
+	float: left;
+	width: 430px;
+	height: 120px;
+}
+.goldenInfo,
+.goldenImg,
+.goldenBorder,
+.goldenMask {
+	width: 300px;
+	height: 300px;
+}
+
+.goldenInfo {
+	display: block;
+	position: relative;
+	margin: 50px auto;
+}
+
+.goldenImg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	border-radius: 50%;
+}
+
+.goldenBorder {
+	position: absolute;
+	border: 10px solid #072256;
+	border-left-color: #E07514;
+	border-top-color: #E07514;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	-webkit-transition: all .5s ease-in;
+	transition: all .5s ease-in;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.goldenMask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	-webkit-transition: all .5s ease-in;
+	transition: all .5s ease-in;
+	color: rgba(255, 255, 255, 0);
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.goldenInfo:hover .goldenMask {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #DB8E01;
+}
+
+.goldenInfo:hover .goldenBorder {
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.info {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 0;
+	text-align: center;
+	-webkit-transform: translateY(-50%);  /* for Chrome || Safari */
+	-moz-transform: translateY(-50%);  /* for Firefox */
+	-ms-transform: translateY(-50%);   /* for IE */
+    -o-transform: translateY(-50%); 
+}
+.coreInfo li:hover{
+	font-size: 19px;
+	color: white;
+}
+
+
+/*言若金叶研究中心介绍*/
+.introduce_div{
+	width: 100%;
+	margin-top: 40px;
+	height: 500px;
+	background-image: url(../img/backimg03.png);
+	background-size: 100%;
+}
+.introduce_div_left{
+	float: left;width: 60%;
+	margin-left: 10%;
+	margin-top: 50px;
+	font-size: 17px;
+}
+.introduce_div_left0{
+	text-align: center;
+}
+.introduce_div_left0 h1{
+	font-family: 'Helvetica Neue',Helvetica,Arial,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+}
+.introduce_div_left1{
+	margin-top: 130px;
+	font-size: 17px;
+	width: 600px;
+}
+.introduce_div_right{
+	float: left;
+	width: 25%;
+	margin-top: 50px;
+}
+.introduce_div_right0{
+	background-image:url(../img/butterfly.gif);
+	background-size: 150%;
+	background-position-x: -50px;
+}
+
+
+
+/*软件大赛信息*/
+.competition_div{
+	width: 1300px;
+	margin-top: 40px;
+}
+.competition_div0{
+	text-align:center;
+	font-size: 17px;
+}
+.competition_div0 h1{
+	font-family: 'Helvetica Neue',Helvetica,Arial,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+}
+.competition_div0 p{
+	color: #999;
+	font-size: 17px;
+}
+.competition_div1{
+	width: 60%;
+	text-align: center;
+}
+.competition_div1_1{
+	float: left;
+	width: 50%;
+}
+
+/*软件工程师认证*/
+.authentication_div{
+	width: 100%;
+	margin-top: 40px;
+	height: 530px;
+	background-color: #008a84;
+}
+.authentication_div0{
+	text-align:center;
+	padding-top: 20px;
+	display: block;
+}
+.authentication_div0 h1{
+	color:#FFF;
+	font-family: 'Helvetica Neue',Helvetica,Arial,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+}
+.authentication_div0 p{
+	color: white;
+	font-size: 17px;
+}
+.authentication_div1{
+	margin-top: 20px;
+	margin-left: 20%;
+}
+/*软件工程师认证-照片墙遮罩层*/
+.in_div{
+	position:relative;
+	float:left;
+	width:30%;
+	text-align: center;
+}
+.authenticationImg,.authenticationBorder,.authenticationMask{
+	width:250px;
+	height:300px;
+}
+
+.authenticationImg{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+.authenticationBorder{
+	position:absolute;
+	top:0;
+	left:0;
+}
+.authenticationMask{
+	position:absolute;
+	top:0;
+	left:0;
+	border-radius:0%;
+	-webkit-transition:all .5s ease-in;
+	transition:all .5s ease-in;
+	color:rgba(255, 255, 255, 0);
+}
+.in_div:hover .authenticationMask{
+	background-color:rgba(0, 0, 0, 0.8);
+	color:rgba(255, 255, 255, 1);
+}
+.authenticationInfo{
+	position:relative;
+	width:100%; 
+	top:30%; 
+	text-align:center; 
+	-webkit-transform:translateY(-50%);
+}
+
+
+
+/*软件工程师培训*/
+.train_div{
+	width: 1300px;
+	margin-top: 40px;
+	height: 380px;
+	display: block;
+}
+.train_div0{
+	text-align:center;
+	padding-top: 20px;
+	display: block;
+}
+.train_div0 h1{
+	font-family: 'Helvetica Neue',Helvetica,Arial,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+}
+.train_div1{
+	padding-top: 20px;
+	display: block;
+}
+.train_div1_left{
+	float: left;
+	width: 31%;
+	margin-top: 50px;
+	margin-left: 10%;
+}
+.train_div1_left p{
+	font-size: 18px;
+	color: #999;
+}
+.train_hr{
+	border:1px solid red;
+}
+/*软件工程师培训-轮播图-*/
+.allblurb_2 {
+	position: relative;
+	width:600px;
+	height: 200px;
+	float: left;
+	margin-left: 80px;
+	overflow: hidden;
+}
+.allblurb_21  li p {
+	width: 600px;
+	height: 300px;
+}
+.allblurb_2 ul.allblurb_21 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.allblurb_2 ul.allblurb_21 li {
+	position: absolute;
+	margin-top: 0px;
+	text-align: center;
+}
+.allblurb_2 ul.allblurb_21 li p {
+	display: block;
+}
+.allblurb_22 {
+	position: absolute;
+	left: 50%;
+	bottom: 12px;
+	z-index: 30;
+}
+.allblurb_22 ul{
+	list-style: none;
+}
+.allblurb_22 ul li {
+	float: left;
+	height: 12px;
+	margin: 4px 4px;
+}
+.allblurb_22 ul li em {
+	display: block;
+	width: 12px;
+	height: 12px;
+	border-radius: 100%;
+	background-color: #777777;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+.allblurb_22 ul li.current em {
+	background-color: #fe6500;
+}
+
+/*软件实践类专著*/
+.book_div{
+	margin-top: 50px;
+	display: block;
+}
+
+/*软件外包*/
+.outsource_div{
+	width: 1300px;
+	margin-top: 30px;
+}
+.outsource_div0{
+	text-align:center;
+	padding-top: 20px;
+	display: block;
+}
+.outsource_div0 h1{
+	font-family: 'Helvetica Neue',Helvetica,Arial,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+}
+.outsource_div0 hr{
+	border:2px solid #0880D7;
+	width: 180px;
+}
+.outsource_div0 p{
+	font-size: 24px;
+	color: #666666;
+}
+.outsource_div1{
+	text-align:center;
+	padding-top: 20px;
+	display: block;
+}
+.outsource_div1_left{
+	width: 50%;
+	float: left;
+}
+.outsource_div1_left img{
+	width: 570px;
+	height: 480px;
+}
+.outsource_div1_right{
+	width: 40%;
+	float: left;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+.outsource_div1_right p{
+	font-size: 26px;
+	font-weight: 900;
+	text-align: left;
+}
+.outsource_div1_right0{
+	border-left: 2px solid #000000;
+	width: 100%;
+	height: 260px;
+	margin-top: 20px;
+	text-align: left;
+	padding-top: 20px;
+}
+.outsource_div1_right0 p{
+	font-size: 22px;
+	font-weight: 800;
+	margin-left: 10px;
+}
+.outsource_div1_right0 ul{
+	list-style: decimal;
+	font-size: 18px;
+	font-weight: 500;
+}
+.outsource_div1_right0 ul li a{
+	color:#1ABC9C;
+	cursor: default;
+}
+.outsource_div1_right0 ul li a:hover{
+	color:#077ACE;
+}
+
+
+
+/*自主软件研发*/
+.development_div{
+	width: 100%;
+	margin-top: 40px;
+	height: 530px;
+	background-image: url(../img/backimg16.jpg);
+}
+.development_div0{
+	text-align:center;
+	padding-top: 20px;
+	display: block;
+	color: white;
+}
+.development_div0 h1{
+	font-family: 'Helvetica Neue',Helvetica,Arial,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+}
+.development_div1{
+	margin-top: 30px;
+}
+.development_div1_0{
+	float: left;
+	width: 50%;
+	height: 200px;
+}
+.development_div1_01{
+	color: white;
+	margin-top: 15px;
+	padding: 10px;
+}
+.development_div1_01 p a{
+	color: #D58512;
+}
+.development_imgs{
+  overflow:hidden;
+  float: left;
+  height: 200px;
+  width: 100px;
+  padding: 10px;
+}
+.development_imgs img{
+  transition:.6s;
+  -moz-transition:.6s;
+  -webkit-transition:.6s;
+  -o-transition:.6s;
+  line-height:1em;
+}
+.development_imgs:hover img{
+  transform:scale(1.1);
+  -webkit-transform:scale(1.1);
+}
+
+
+
+/*底部制作*/
+.footer_div{
+	width: 1300px;
+	margin-top: 30px;
+	text-align: center;
+}
+.footer_div span{
+	display: block;
+}
+.footer_div span a{
+	display: inline-block;
+	color: #b4bbbf;
+	width: 90px;
+}
+.footer_div span a:hover{
+	color: #337ab7;
+}
+.footer_div hr{
+	width:80%;
+	border: 1px solid #b4bbbf;
+}
+.footer_div p{
+	color: #b4bbbf;
+}
+
+
+
+/*右下角流动框*/
+.fixed-btn,.fixedImg,.fixedBorder,.fixedMask,.fixed-btn a{
+	width:45px;
+	height:50px;
+}
+.fixed-btn{
+	position:relative;
+	float:left;
+	text-align: center;
+	background: #d0d6d9;
+	display: none;
+	position:fixed;
+	right:1%;
+	bottom:2%;
+	border:1px solid #eee;
+	-webkit-border-radius: 7%;
+	font-size:25px;
+}
+.fixed-btn a {
+	display:inline-block;
+	text-align:center;
+	color: white;
+}
+.fixedImg{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+.fixedMask{
+	position:absolute;
+	top:0;
+	left:0;
+	border-radius:0%;
+	-webkit-transition:all .5s ease-in;
+	transition:all .5s ease-in;
+	color:rgba(255, 255, 255, 0);
+}
+.fixed-btn:hover .fixedMask{
+	background-color:rgba(0, 0, 0, 1);
+	color:rgba(255, 255, 255, 1);
+}
+.fixedInfo{
+	position:relative;
+	width:100%; 
+	top:50%; 
+	text-align:center; 
+	-webkit-transform: translateY(-50%);  /* for Chrome || Safari */
+	-moz-transform: translateY(-50%);  /* for Firefox */
+	-ms-transform: translateY(-50%);   /* for IE */
+    -o-transform: translateY(-50%); 
+}
+.fixedInfo p{
+	font-size: 16px;
+}
